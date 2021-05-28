@@ -1,0 +1,11 @@
+{
+  "name": "zy-date-to-calendar",
+  "version": "1.0.2",
+  "description": "传入日期可展示对应的日历",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "李正阳",
+  "license": "ISC"
+}
