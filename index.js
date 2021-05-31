@@ -770,8 +770,8 @@ export function toCalendar(el,options){
     otable.setAttribute('id','table')
     otable.setAttribute('style','border-collapse: collapse;')
     otable.innerHTML=otr
-    if(document.getElementById(el)){
-        document.getElementById(el).appendChild(otable)
+    if(el){
+        el.appendChild(otable)
     }else{
         throw(new Error('无法找到#'+el+'节点'))
     }
