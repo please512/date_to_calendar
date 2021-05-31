@@ -5,21 +5,37 @@
 | backgroundDict | 非必填    |  Object  | {'1' : 'red', '2': 'yellow',  .... , '11': 'blue', '12': 'green'} |
 | thColor   | 非必填   |  String | '#000' |
 | thBackground | 非必填     |  String | '#000' |
-| empthBackground  | 非必填    |  String | '#000' |
+| emptyThBackground  | 非必填    |  String | '#000' |
 | tdWidth  | 非必填    |  Number、String | 120 、 '120' |
-| tdHeight  | 非必填    |  Number、String | 120 、 '120' |
+| tdHeight  | 非必填    |  Number、String | 40 、 '40' |
 | isShowAstro  | 非必填    |  Boolean | true |
 | isShowChinese | 非必填     |  Boolean | true |
 
 ### 用法如下
-```javascript
+##### 执行命令：`npm i zy-date-to-calendar`
 
+##### 引入方法：`import toCalendar from "zy-date-to-calendar"`
+##### html部分
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>demo</title>
+    </head>
+    <body>
+		<div id="content"></div>
+    </body>
+</html>
+```
+##### javascript部分
+```javascript
     toCalendar('content',{
         date:'2021-6',//日期范围：两个日期数组，一个日期字符串
         backgroundDict:null,//12个月份的td背景颜色
         thColor:'',//表头的文字颜色
         thBackground:'',//表头的背景颜色
-        empthBackground:'',//空td的背景色
+        emptyThBackground:'',//空td的背景色
         tdWidth:130,//th，td的宽度
         tdHeight:0,//th，td的高度
         isShowAstro:false,//是否显示星座

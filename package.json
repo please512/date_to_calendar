@@ -1,7 +1,7 @@
 {
   "name": "zy-date-to-calendar",
-  "version": "1.0.3",
-  "description": "加入农历元素及可配置项、修改默认背景颜色。",
+  "version": "1.0.4",
+  "description": "添加引入教程及html用例",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

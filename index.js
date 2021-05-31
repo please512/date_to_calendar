@@ -602,7 +602,7 @@ export function toCalendar(el,options){
         },
         thColor:options.thColor?options.thColor:'#fff',
         thBackground:options.thBackground?options.thBackground:'#228B22',
-        empthBackground:options.empthBackground?options.empthBackground:'#CDC5BF',
+        emptyThBackground:options.emptyThBackground?options.emptyThBackground:'#CDC5BF',
         tdWidth:options.tdWidth?options.tdWidth:150,
         tdHeight:options.tdHeight?options.tdHeight:40,
         isShowAstro:options.isShowAstro,
@@ -661,7 +661,7 @@ export function toCalendar(el,options){
                 date_num:'',
                 date:'',
                 date_nong:'',
-                background:config.empthBackground
+                background:config.emptyThBackground
             })
         }
         // console.log('头部补充的数组')
@@ -680,7 +680,7 @@ export function toCalendar(el,options){
                     date_num:'',
                     date:'',
                     date_nong:'',
-                    background:config.empthBackground
+                    background:config.emptyThBackground
                 })
             }
         }
@@ -714,7 +714,7 @@ export function toCalendar(el,options){
                 date_num:'',
                 date:'',
                 date_nong:'',
-                background:config.empthBackground
+                background:config.emptyThBackground
             })
         }
         // console.log('头部')
@@ -731,7 +731,7 @@ export function toCalendar(el,options){
                     date_num:'',
                     date:'',
                     date_nong:'',
-                    background:config.empthBackground
+                    background:config.emptyThBackground
                 })
             }
         }
