@@ -1,4 +1,4 @@
-### 参数详情
+﻿### 参数详情
 | 参数值  |  是否必填  | 参数类型 | 举例 |
 | ---------|---- | -----| ------- |
 | el   | 必填   |  Dom节点 | document.getElementById('#content')、this.$refs['content'] |
@@ -45,3 +45,7 @@
 
 ```
 ###### 注：toCalendar方法两个参数，第一个是需要渲染的父节点，须为dom元素且不为null；第二个参数options是配置项，其中date可以是日期字符串或者两个日期字符串组成的数组、backgroundDict是1-12月之间的td背景颜色，对象键为相应的月份、值为颜色值。
+
+###### 效果预览
+![Image text](https://raw.githubusercontent.com/please512/date_to_calendar/master/pic1.png)
+![Image text](https://raw.githubusercontent.com/please512/date_to_calendar/master/pic2.png)
